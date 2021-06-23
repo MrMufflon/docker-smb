@@ -5,7 +5,7 @@ services:
     tty: true
     network_mode: bridge
     volumes:
-      - /mnt/hdd_repo/Shared/:/Shared
+      - /mnt/backup/Shared/:/Shared
     ports:
       - "139:139"
       - "445:445"
